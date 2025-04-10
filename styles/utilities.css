@@ -38,6 +38,10 @@
     gap: 5.6rem;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .red {
     color: var(--red);
 }
