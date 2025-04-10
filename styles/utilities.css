@@ -14,10 +14,30 @@
     display: grid;
 }
 
+.grid-col-3 {
+    grid-template-columns: repeat(3, 33rem);
+}
+
 .gap-8 {
     gap: 0.8rem;
 }
 
 .gap-16 {
     gap: 1.6rem;
+}
+
+.gap-20 {
+    gap: 2rem;
+}
+
+.gap-24 {
+    gap: 2.4rem;
+}
+
+.gap-56 {
+    gap: 5.6rem;
+}
+
+.red {
+    color: var(--red);
 }

@@ -39,14 +39,8 @@
         }
 
         #about {
-            margin-top: 5.6rem;
-
             h1 {
                 margin-block: .8rem 2rem;
-            }
-
-            span {
-                color: var(--red);
             }
 
             p {
