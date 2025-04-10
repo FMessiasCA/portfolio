@@ -20,7 +20,7 @@
     --gray-600: #E2E4E9;
 
     /* Typography */
-    font-size: 62.5;
+    font-size: 62.5%;
 
     --font-family-asap: "Asap", sans-serif;
     --title-lg: 700 5.6rem/120% var(--font-family-asap);
@@ -40,12 +40,13 @@
 }
 
 body {
-    background-image: var(--bg-intro);
+    background-color: var(--gray-200);
     color: var(--gray-500);
 }
 
 h1 {
     font: var(--title-lg);
+    color: var(--gray-600);
 }
 
 h2 {
@@ -58,4 +59,8 @@ h3 {
 
 h4 {
     font: var(--subtitle);
+}
+
+p {
+    font: var(--text-sm);
 }
