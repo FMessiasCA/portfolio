@@ -1,7 +1,16 @@
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    /* Chrome, Safari, Edge */
+    -moz-osx-font-smoothing: grayscale;
+    /* Firefox em MacOS */
+    text-rendering: optimizeLegibility;
+    /* Melhora kerning e ligaduras */
 }
 
 :root {
