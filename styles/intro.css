@@ -1,6 +1,7 @@
 #intro {
     background-image: var(--bg-intro);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 
     header {
         margin-top: 12rem;

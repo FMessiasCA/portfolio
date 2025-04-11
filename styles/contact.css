@@ -1,0 +1,31 @@
+footer {
+    padding: 12.8rem 12rem 20rem;
+
+    background-image: url("../assets/backgrounds/Background_Contacts.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+    main {
+
+        & > div {
+            padding: 2rem;
+            background-color: var(--gray-300);
+
+            position: relative;
+
+            i {
+                font-size: 2.8rem;
+                color: var(--gray-400);
+            }
+
+            & i:nth-last-child(1) {
+                color: var(--blue);
+
+                position: absolute;
+                right: 2rem;
+            }
+
+        }
+    }
+}

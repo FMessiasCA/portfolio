@@ -22,6 +22,10 @@
     gap: 0.8rem;
 }
 
+.gap-12 {
+    gap: 1.2rem;
+}
+
 .gap-16 {
     gap: 1.6rem;
 }
@@ -38,10 +42,22 @@
     gap: 5.6rem;
 }
 
+.text-md {
+    font: var(--text-md);
+}
+
 .text-center{
     text-align: center;
 }
 
 .red {
     color: var(--red);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.blue {
+    color: var(--blue);
 }

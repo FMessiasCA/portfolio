@@ -69,3 +69,7 @@ h4 {
 p {
     font: var(--text-sm);
 }
+
+header {
+    text-align: center;
+}
